@@ -14,6 +14,6 @@ test('user health wounded test', () => {
 
 test('user health critical test', () => {
     expect(userStatus({
-        name: 'Маг', health: 15
+        name: 'Маг', health: 14
     })).toBe('critical');
 });
