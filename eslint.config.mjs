@@ -92,7 +92,7 @@ export default [
         },
     },
     {
-        files: [ 'src/__tests__/**' ],
+        files: [ 'src/js/__tests__/**' ],
         ...jest.configs['flat/recommended'],
         rules: {
             ...jest.configs['flat/recommended'].rules,
@@ -101,7 +101,7 @@ export default [
     },
     // you can also configure jest rules in other objects, so long as some of the `files` match
     {
-        files: [ 'src/__tests__/**' ],
+        files: [ 'src/js/__tests__/**' ],
         rules: { 'jest/prefer-expect-assertions': 'off' },
     },
 ];

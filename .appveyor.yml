@@ -1,10 +1,14 @@
+image: Ubuntu1804
+
+stack: node 20
+
 environment:
   nodejs_version: "18"
 
 branches:
   only:
-    - master  # ветка git
-    - main
+    - master  
+    - main   # ветка git
 
 cache: node_modules  # кеширование
 
