@@ -9,7 +9,7 @@ export default [
     pluginJs.configs.recommended,
     {
         ignores: [
-            'dist/', '*.json'
+            'dist/', '*.json', 'coverage/', 'docs/', 'webpack.config.js'
         ], // отключение проверок для папок
     },
     {
